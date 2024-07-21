@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/single_image.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/sockjs-client/1.5.1/sockjs.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/stomp.js/2.3.3/stomp.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Single Image Selection</h1>
+        <input type="file" id="fileInput" class="file-input">
+        <p id="error-message"></p>
+        <image id="image" src="media/upload.png" alt="Image" class="image">
+        <canvas id="canvas" width="640" height="480" class="canva"></canvas>
+        <div id="connectionStatus" class="connection-status"></div>
+    </div>
+    <script src="js/single_image.js"></script>
+</body>
+</html>
