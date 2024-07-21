@@ -57,7 +57,7 @@ mvn dependency:resolve
 ```
 ## Step 4: Enjoy Your App
 
-Finally, open the brower and type `localhost:9092`  
+Finally, open the brower and type `localhost:8080`  
 **ENJOY!**
 
 
